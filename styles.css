@@ -1,0 +1,60 @@
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #000;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.game-board {
+  position: relative;
+}
+
+#gameCanvas {
+  border: 2px solid #333;
+}
+
+#score, #level {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #fff;
+}
+
+#startButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#startButton:hover {
+  background-color: #2980b9;
+}
+
+
+/* Pixel Art Block Style */
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000;
+}
+
+/* Retro Tetris Colors */
+.black { background-color: #000; }
+.cyan { background-color: #00FFFF; }
+.blue { background-color: #0000FF; }
+.orange { background-color: #FFA500; }
+.yellow { background-color: #FFFF00; }
+.green { background-color: #00FF00; }
+.red { background-color: #FF0000; }
+.purple { background-color: #800080; }
