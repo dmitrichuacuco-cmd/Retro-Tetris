@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tetris</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="game-board">
+      <canvas id="gameCanvas" width="300" height="600"></canvas>
+      <div id="score">Score: <span id="score-value">0</span></div>
+      <div id="level">Level: <span id="level-value">1</span></div>
+      <button id="startButton">Start</button>
+    </div>
+  </div>
+
+  <audio id="tetrisMusic" loop>
+    <source src="Tetris.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script src="tetris.js"></script>
+</body>
+</html>
