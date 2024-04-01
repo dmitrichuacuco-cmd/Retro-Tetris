@@ -193,7 +193,7 @@ function rotate() {
 function draw() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   drawGrid();
-  drawPiece(currentShape, currentX, currentY, 'cyan'); // Change color as per the shape
+  drawPiece(currentShape, currentX, currentY, '#DB261D'); // Change color as per the shape
 }
 
 // Start game
